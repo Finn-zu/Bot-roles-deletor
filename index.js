@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 const BOT_TOKEN = 'PASTE_YOUR_BOT_TOKEN_HERE';
-const SERVER_ID = 'PASTE_YOUR_SERVER_ID_HERE';
+const SERVER_ID = '1509127033995919530';
 
 client.once('ready', async () => {
   console.log('Bot ready! Starting role deletion...');
