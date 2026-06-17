@@ -1,7 +1,7 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
-const BOT_TOKEN = 'PASTE_YOUR_BOT_TOKEN_HERE';
+const BOT_TOKEN = 'MTUxNjQ0NTA2OTQwODk5MzM5MQ.GfyD0j.mviT6tjTu-9E3458nTEN0f2BrZagsccanHRPeM';
 const SERVER_ID = '1509127033995919530';
 
 client.once('ready', async () => {
